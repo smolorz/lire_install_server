@@ -1,0 +1,9 @@
+Installation:
+
+On systems using upstart, the install-server.conf can
+be put into /etc/init in order to automatically start
+the server at boot.
+
+The install_server.py lire_base_socket_class.py and
+lire_core_install (part of the LiRE-git repo) must be
+put in /LiRE.
