@@ -1,5 +1,14 @@
-Installation:
+LiRE Install Server
+-------------------
 
+This little piece of software makes building and installing full LiRE
+systems more user-friendly. Normally, you need to be root at the end
+of the LiRE building process. If you run this install server on the
+build system every user can walk through the LiRE build and install
+completely.
+
+Installation:
+------------
 On systems using upstart, the install-server.conf can
 be put into /etc/init in order to automatically start
 the server at boot.
