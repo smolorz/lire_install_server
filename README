@@ -9,7 +9,7 @@ completely.
 
 Installation:
 ------------
-On systems using upstart, the install-server.conf can
+On systems using upstart, the lire-install-server.conf can
 be put into /etc/init in order to automatically start
 the server at boot.
 
