@@ -6,4 +6,4 @@ the server at boot.
 
 The install_server.py lire_base_socket_class.py and
 lire_core_install (part of the LiRE-git repo) must be
-put in /LiRE.
+put in /usr/local/bin/.
