@@ -112,7 +112,7 @@ class LireInstallHandler(SocketServer.BaseRequestHandler, lire_base_socket_class
             self.sen_word(self.request, "ECHO: Extracting [OK]")
 
         self.send_word(self.request, "ECHO: Running lire_core_install")
-        (stdout, stderr) = subprocess.Popen(['/LiRE/lire_core_install', self.lire_root_dir, self.lire_target_dir],
+        (stdout, stderr) = subprocess.Popen(['/usr/local/bin/lire_core_install', self.lire_root_dir, self.lire_target_dir],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT).communicate()
         for line in stdout.split("\n"):
